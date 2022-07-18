@@ -19,6 +19,9 @@ Sbot.run()
 idle()
 
 MKN.run()
+
+idle()
+
 bot.run()
 
 
