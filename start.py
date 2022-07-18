@@ -5,11 +5,7 @@ from sample2.mkn2 import Sbot
 from sample3.arjun import Arjun
 
 Arjun.run()
+Sbot.run()
+MKN.run()
 
-Sbot.start()
-MKN.start()
 
-idle()
- 
-Sbot.stop()
-MKN.stop()
