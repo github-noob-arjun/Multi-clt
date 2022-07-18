@@ -7,9 +7,9 @@ from sample3.arjun import Arjun
 
 
 my_apps = {
-    "Sbot": Client("Sbot"),
-    "MKN": Client("MKN"),
-    "Arjun": Client("Arjun"),
+    "Sbot",
+    "MKN",
+    "Arjun",
     # and so on
 }
 
