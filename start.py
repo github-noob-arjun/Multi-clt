@@ -4,6 +4,7 @@ from new.mkn import MKN
 from sample2.mkn2 import Sbot
 
 Sbot.run()
+idle()
 MKN.run()
 
 #idle()
