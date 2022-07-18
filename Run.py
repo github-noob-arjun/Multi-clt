@@ -3,12 +3,12 @@ import os
 import asyncio
 from start import App1, App2, App3
 
-my_apps = [
+my_apps = {
     "App1": Client("App1"),
     "App2": Client("App2"),
     "App3": Client("App3"),
     # and so on
-]
+}
 
 
 for _, app in my_apps.items():
