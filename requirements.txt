@@ -1,3 +1,4 @@
 Pyrogram
 tgcrypto
 git+https://github.com/github-noob-arjun/Sample@main             
+git+https://github.com/github-noob-arjun/Sample-2@main
