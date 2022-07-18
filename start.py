@@ -5,20 +5,16 @@ from sample2.mkn2 import Sbot
 from sample3.arjun import Arjun
 
 
+a = Client("Sbot"),
+b = Client("MKN"),
+c = Client("Arjun"),
 
-my_apps = [
-    Client("Sbot"),
-    Client("MKN"),
-    Client("Arjun"),
-    # and so on
-]
+a.start()
+b.start()
+c.start()
 
-for app in my_apps:
-
-my_apps.run()
-   app.start()
-
-Client.idle()
+idle()
  
-for app in my_apps:
-    app.stop()
+a.stop()
+b.stop()
+c.stop()
