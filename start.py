@@ -1,6 +1,6 @@
 from pyrogram import Client, idle, filters 
 import os
-import new.mkn
+from new import mkn
 
 BOT_TOKEN = "5465507667:AAFggC4o13JV-J-zC8yuZf3sUZa-1y5AJgk"
 API_ID = 4738674
