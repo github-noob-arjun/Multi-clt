@@ -3,7 +3,7 @@ import os
 from new.mkn import MKN
 from sample2.mkn2 import Sbot
 
-bot.run()
+Sbot.run()
 MKN.run()
 
 idle()
