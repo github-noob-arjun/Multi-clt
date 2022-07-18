@@ -13,10 +13,8 @@ my_apps = {
     # and so on
 }
 
-for _, app in my_apps.items():
-    app.start()
+my_apps.items.start()
 
 Client.idle()
 
-for _, app in my_apps.items():
-    app.stop()
+my_apps.items.stop()
