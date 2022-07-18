@@ -5,9 +5,9 @@ from sample2.mkn2 import Sbot
 from sample3.arjun import Arjun
 
 
-a = "Sbot"
-b = "MKN"
-c = "Arjun"
+a = Sbot
+b = MKN
+c = Arjun
 
 a.start()
 b.start()
