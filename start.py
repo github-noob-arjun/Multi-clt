@@ -10,3 +10,10 @@ bot = Client("Sbot", bot_token=BOT_TOKEN, api_id=API_ID, api_hash=API_HASH)
 @bot.on_message(filters.text)
 async def start(client, message):
     await message.reply_text("Success Message 💥")
+
+
+bot.start()
+
+idle()
+
+bot.stop()
