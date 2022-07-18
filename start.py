@@ -1,6 +1,6 @@
 from pyrogram import Client, idle, filters 
 import os
-from new import mkn
+from new import mkn.MKN
 
 BOT_TOKEN = "5465507667:AAFggC4o13JV-J-zC8yuZf3sUZa-1y5AJgk"
 API_ID = 4738674
@@ -14,7 +14,7 @@ async def start(client, message):
 
 
 bot.start()
-mkn.run()
+MKN.run()
 
 idle()
 
