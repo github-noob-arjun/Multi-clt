@@ -1,9 +1,9 @@
 from pyrogram import Client, idle, filters
 import os
 import asyncio
-from new1.samle1 import App1
-from new2.samle2 import App2
-from new3.samle3 import App3
+from new1.sample1 import App1
+from new2.sample2 import App2
+from new3.sample3 import App3
 
 App1.start()
 App2.start()
