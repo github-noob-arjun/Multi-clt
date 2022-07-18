@@ -1,5 +1,7 @@
 tgcrypto
-git+https://github.com/subinps/pyrogram@inline-m
+pyrogram~=1.4.1
+
+
 git+https://github.com/github-noob-arjun/Sample@main             
 git+https://github.com/github-noob-arjun/Sample-2@main
 git+https://github.com/github-noob-arjun/sample-3@main
