@@ -3,10 +3,10 @@ import os
 from new.mkn import MKN
 from sample2.mkn2 import Sbot
 
-Sbot.start()
-MKN.start()
+Sbot.run()
+MKN.run()
 
-idle()
+#idle()
 
-Sbot.stop()
-MKN.stop()
+#Sbot.stop()
+#MKN.stop()
