@@ -13,9 +13,8 @@ async def start(client, message):
     await message.reply_text("Success Message 💥")
 
 
-bot.start()
+bot.run()
 MKN.run()
 
 idle()
 
-bot.stop()
