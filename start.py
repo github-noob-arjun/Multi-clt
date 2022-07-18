@@ -14,16 +14,12 @@ async def start(client, message):
     await message.reply_text("Success Message 💥 3")
 
 
-Sbot.run()
+Sbot.start()
+MKN.start()
+bot.start()
 
 idle()
 
-MKN.run()
-
-idle()
-
-bot.run()
-
-
-#Sbot.stop()
-#MKN.stop()
+bot.stop()
+MKN.stop()
+Sbot.stop()
