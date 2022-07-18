@@ -13,5 +13,5 @@ my_apps = {
     # and so on
 }
 
-my_apps.items.run()
+my_apps.run()
 
