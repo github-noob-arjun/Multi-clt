@@ -22,24 +22,3 @@ App3 = Client(
       api_id="4738674",
       api_hash="f2be74eaa9b1cb32498f45d04e4dbb54",
 )
-
-
-my_apps = [
-    Client("App1"),
-    Client("App2"),
-    Client("App3"),
-    # and so on
-]
-
-
-for app in my_apps:
-    # Add a MessageHandler to each Client and start it
-    # app.add_handler(MessageHandler(test, Filters.command("test")))
-    app.start()
-
-
-Client.idle()
-
-for app in my_apps:
-    app.stop()
-
