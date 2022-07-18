@@ -14,9 +14,8 @@ async def start(client, message):
 
 
 bot.start()
-mkn.start()
+mkn.run()
 
 idle()
 
 bot.stop()
-mkn.stop()
