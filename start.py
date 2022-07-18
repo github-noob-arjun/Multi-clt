@@ -13,8 +13,5 @@ my_apps = {
     # and so on
 }
 
-my_apps.items.start()
+my_apps.items.run()
 
-Client.idle()
-
-my_apps.items.stop()
