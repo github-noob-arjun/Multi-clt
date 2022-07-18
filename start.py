@@ -4,12 +4,12 @@ from new.mkn import MKN
 from sample2.mkn2 import Sbot
 from sample3.arjun import Arjun
 
+Arjun.run()
+
 Sbot.start()
 MKN.start()
-Arjun.start()
 
 idle()
  
 Sbot.stop()
 MKN.stop()
-Arjun.stop()
