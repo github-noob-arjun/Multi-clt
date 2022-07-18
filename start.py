@@ -13,16 +13,10 @@ my_apps = {
     # and so on
 }
 
-def test(a, m):
-    m.reply("Response")
-
 for _, app in my_apps.items():
-    # Add a MessageHandler to each Client and start it
-    app.add_handler(MessageHandler(test, Filters.command("test")))
     app.start()
 
 Client.idle()
-
 
 for _, app in my_apps.items():
     app.stop()
