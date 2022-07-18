@@ -6,11 +6,8 @@ from sample3.arjun import Arjun
 
 Sbot.start()
 MKN.start()
-Arjun.start()
 
 idle()
 
-Arjun.stop()
 MKN.stop()
 Sbot.stop()
-
