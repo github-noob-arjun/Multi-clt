@@ -1,7 +1,7 @@
 from pyrogram import Client, idle, filters
 import os
 import asyncio
-from ID-BOT.Main import App1
+from ID_BOT.Main import App1
 from new2.sample2 import App2
 from new3.sample3 import App3
 
