@@ -1,7 +1,9 @@
 from pyrogram import Client, idle, filters
 import os
 import asyncio
-from bot import App1, App3, App3
+from Bot.App1 import App1
+from Bot.App2 import App2
+from Bot.App3 import App3
 
 my_apps = [
     Client("App1"),
