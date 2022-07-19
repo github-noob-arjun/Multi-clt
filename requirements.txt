@@ -2,7 +2,6 @@ tgcrypto
 pyrogram~=1.4.1
 
 git+https://github.com/github-noob-arjun/TG-DC-BOT@main
-git+https://github.com/github-noob-arjun/TB-ID-BOT@main
 git+https://github.com/github-noob-arjun/Sample3@main
 git+https://github.com/github-noob-arjun/Sample@main
 git+https://github.com/github-noob-arjun/Sample2@main
