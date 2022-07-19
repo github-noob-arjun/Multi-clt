@@ -1,7 +1,7 @@
 from pyrogram import Client, idle, filters
 import os
 import asyncio
-from MT_ID_Bot.client import App1
+from DCBot.Main import DCBot as App1
 from new2.sample2 import App2
 from new3.sample3 import App3
 
